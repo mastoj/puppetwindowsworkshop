@@ -5,11 +5,11 @@ Exercises and presentation for a puppet windows workshop.
 
 If you do this on Windows you must first disable hyper-v. To turn off hyper-v execute: 
 
-    bcedit /set hypervisorlaunchtype off
+    bcdedit /set hypervisorlaunchtype off
 
 and reboot. To turn it back on use
 
-    bcedit /set hypervisorlaunchtype on (or auto start)
+    bcdedit /set hypervisorlaunchtype on (or auto start)
 
 and reboot. Source: http://blogs.technet.com/b/gmarchetti/archive/2008/12/07/turning-hyper-v-on-and-off.aspx
 
